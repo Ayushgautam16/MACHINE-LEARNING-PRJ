@@ -1,0 +1,5 @@
+import matplotlib.pyplot as pd 
+xaxis= [1,5,7]
+yaxis= [2,3,9]
+pd.plot(xaxis,yaxis,colour='red')
+pd.show()
