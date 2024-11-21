@@ -95,3 +95,23 @@
 # >>> x<y<z
 # True
 # >>>
+
+
+# console in tuple
+
+# SyntaxError: unmatched ')'
+# >>> tea_types=("black"," green","oolong")
+# >>> tea_types
+# ('black', ' green', 'oolong')
+# >>> tea_types[1] = ["earltea"]
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: 'tuple' object does not support item assignment
+# >>> tea_types
+# ('black', ' green', 'oolong')
+# >>> (black,green,oolong) = tea_types
+# >>> black
+# 'black'
+# >>> type(tea_types)
+# <class 'tuple'>
+# >>> 
