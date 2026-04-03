@@ -1,6 +1,5 @@
 # from module import chai
 # chai("ginger tea")
-
 # >>> tea_variety = ["olongtea", "herball","black"] 
 # >>> print(tea_variety)
 # ['olongtea', 'herball', 'black']
