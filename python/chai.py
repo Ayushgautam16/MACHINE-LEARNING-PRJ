@@ -38,7 +38,7 @@
 # >>> tea_variety.append("coffee")
 # >>> if "coffee" in tea_variety:
 # ...     print("i have coffee")
-# ...
+
 # i have coffee
 # >>> tea_variety.pop()
 # 'coffee'
